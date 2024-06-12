@@ -1,0 +1,23 @@
+body{
+    height:100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+}
+
+#image-slider > .image{
+    width: 40vmin;
+    height: 54vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
+#image-slider{
+    display: flex;
+    gap:4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
